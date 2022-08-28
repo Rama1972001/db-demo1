@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="798.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.AddDoctorController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+    <children>
+        <HBox alignment="CENTER_LEFT" prefHeight="82.0" prefWidth="368.0">
+            <children>
+                <Text fill="#0b0707" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Doctor Info" textAlignment="RIGHT" wrappingWidth="518.937744140625">
+                    <font>
+                        <Font name="Times New Roman" size="45.0" />
+                    </font>
+                </Text>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="38.0" prefWidth="368.0">
+            <children>
+                <Text layoutX="10.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor's ID" wrappingWidth="142.93670654296875">
+                    <font>
+                        <Font name="Times New Roman" size="18.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                    </HBox.margin>
+                </Text>
+                <TextField fx:id="tf_id" prefHeight="20.0" prefWidth="154.0">
+                    <HBox.margin>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                    </HBox.margin></TextField>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor's name" wrappingWidth="151.73681640625">
+                    <font>
+                        <Font name="Times New Roman" size="18.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                    </HBox.margin>
+                </Text>
+                <TextField fx:id="tf_name" prefHeight="31.0" prefWidth="217.0" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="38.0" prefWidth="368.0">
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor's phone" wrappingWidth="153.3367919921875">
+                    <font>
+                        <Font name="Times New Roman" size="18.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                    </HBox.margin>
+                </Text>
+                <TextField fx:id="tf_phoneNum" prefHeight="6.0" prefWidth="154.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor's e-mail" wrappingWidth="152.53668212890625">
+                    <font>
+                        <Font name="Times New Roman" size="18.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                    </HBox.margin>
+                </Text>
+                <TextField fx:id="tf_Email" prefHeight="31.0" prefWidth="221.0" />
+            </children>
+        </HBox>
+        <HBox prefHeight="36.0" prefWidth="418.0">
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor's address" wrappingWidth="153.3367919921875">
+                    <font>
+                        <Font name="Times New Roman" size="18.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                    </HBox.margin>
+                </Text>
+                <TextField fx:id="tf_address" prefHeight="6.0" prefWidth="154.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor's specialization" wrappingWidth="181.936767578125">
+                    <font>
+                        <Font name="Times New Roman" size="18.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                    </HBox.margin>
+                </Text>
+                <TextField fx:id="tf_special" prefHeight="31.0" prefWidth="192.0" />
+            </children>
+        </HBox>
+        <HBox prefHeight="44.0" prefWidth="368.0">
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor's password" wrappingWidth="154.936767578125">
+                    <font>
+                        <Font name="Times New Roman" size="18.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                    </HBox.margin>
+                </Text>
+                <TextField fx:id="tf_pass" prefHeight="6.0" prefWidth="154.0" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <Button fx:id="Save" mnemonicParsing="false" onAction="#Save_buttonClicked" prefHeight="48.0" prefWidth="104.0" style="-fx-background-color: lightgreen;" text="Save">
+                    <font>
+                        <Font name="Times New Roman Bold" size="26.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets right="15.0" />
+                    </HBox.margin>
+                </Button>
+                <Button fx:id="clean" mnemonicParsing="false" onAction="#clear_ButtonClicked" prefHeight="51.0" prefWidth="102.0" style="-fx-background-color: yellow;" text="Clear" textFill="#242324">
+                    <font>
+                        <Font name="Times New Roman Bold" size="26.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</VBox>

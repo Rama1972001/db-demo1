@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.DoctorIssues">
+    <center>
+        <VBox prefHeight="327.0" prefWidth="276.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="add" mnemonicParsing="false" onAction="#AddDoctorButton" prefHeight="80.0" prefWidth="230.0" text="Add a Doctor">
+                    <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                    </font>
+               <graphic>
+                  <ImageView fitHeight="59.0" fitWidth="66.0">
+                     <image>
+                        <Image url="@../../../../../../../../../../Downloads/Music/doctor-icon-add-sign-new-plus-positive-symbol-vector-illustration-116307542.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+                </Button>
+                <Button fx:id="delete" mnemonicParsing="false" onAction="#DeleteDoctorButton" prefHeight="80.0" prefWidth="230.0" text="Delete a Doctor">
+                    <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+    </center>
+    <bottom>
+        <VBox prefHeight="166.0" prefWidth="555.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="217.0" fitWidth="576.0">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/Music/add_edit_delete.jpg" />
+               </image>
+            </ImageView>
+         </children>
+        </VBox>
+    </bottom>
+    <right>
+        <VBox prefHeight="259.0" prefWidth="310.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="edit" mnemonicParsing="false" onAction="#EditDoctorButton" prefHeight="80.0" prefWidth="230.0" text="Edit a Doctor">
+                    <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                    </font>
+                </Button>
+                <Button fx:id="search" mnemonicParsing="false" onAction="#SearchDoctorButton" prefHeight="80.0" prefWidth="230.0" text="Search for a Doctor">
+                    <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="36.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZPRUD_W0CtnAYn8Ww_oP4eYAvh5V2HA7lho-4dfEBwM0UVNJUpDWtZwx5u8aAmFOpQM&amp;usqp=CAU" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+            </children>
+        </VBox>
+    </right>
+    <top>
+        <TextField alignment="CENTER" style="-fx-background-color: CORNFLOWERBLUE;" text="Doctor Issues" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Baskerville Old Face" size="48.0" />
+            </font>
+        </TextField>
+    </top>
+</BorderPane>

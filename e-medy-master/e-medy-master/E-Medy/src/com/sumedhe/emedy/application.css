@@ -1,0 +1,123 @@
+.menu-button{
+        -fx-font-family: "Roboto regualr";
+        -fx-font-size: 16.0;
+        -fx-background-color: #33363B;
+        -fx-text-fill: #dddddd;
+        -fx-text-alignment: left;
+        -fx-padding: 1.0;
+        }
+
+.menu-button-selected{
+ 		-fx-font-family: "Roboto bold";
+ 		-fx-font-size: 17.0;
+        -fx-background-color: #2A2D32;
+        -fx-text-fill: #FFFFFF;
+        -fx-text-alignment: left;
+        -fx-padding: 1.0;
+}
+
+.desktop-pane {
+	-fx-background-color: #F0F1F8;
+}
+
+.desktop-pane-top-bar{
+	    -fx-background-color: #EEEFF3;
+}
+
+.dashboard-title {
+	 	-fx-font-family: "Roboto bold";
+ 		-fx-font-size: 17.0;
+        -fx-background-color: #7C858E;
+        -fx-text-fill: white;
+}
+
+.edit-view-label {
+	    -fx-font-family: "Roboto regular";
+	    -fx-font-size: 14.0;
+}
+
+.input-error {
+	-fx-border-color: red;
+ 	-fx-focus-color: red ;
+}
+
+.tooltip {
+    -fx-background-color: #ef6c00;
+   	-fx-font-family: "Roboto mono Bold";
+}
+
+.notification-success {
+	-fx-background-color: #00bb00;
+}
+
+.notification-information {
+	-fx-background-color: #ef6c00;	
+}
+
+.notification-error {
+	-fx-background-color: #d32f2f;	
+}
+
+.notification-label {
+	-fx-font-family: "Roboto regular";
+	-fx-font-size: 18.0;
+	-fx-text-fill: white;
+	-fx-text-alignment: center;
+}
+
+.payment-label {
+	-fx-font-family: "Roboto regular";
+	-fx-font-size: 20.0;
+	-fx-text-fill: blue;
+}
+
+.close-button {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+}
+
+.dashboard {
+	-fx-background-color: #eceff1;
+}
+
+.card-01-title {
+	-fx-background-color: #ef6c00;
+	-fx-font-family: "Roboto regular";
+	-fx-font-size: 18.0;
+	-fx-text-fill: white;
+}
+
+.card-01-body {
+	-fx-background-color: #ef5100;
+	-fx-font-family: "Roboto regular";
+	-fx-font-size: 36.0;
+	-fx-text-fill: white;
+}
+
+.card-02-title {
+	-fx-background-color: #00e676;
+	-fx-font-family: "Roboto regular";
+	-fx-font-size: 18.0;
+	-fx-text-fill: white;
+}
+
+.card-02-body {
+	-fx-background-color: #00c853;
+	-fx-font-family: "Roboto regular";
+	-fx-font-size: 36.0;
+	-fx-text-fill: white;
+}
+
+.card-03-title {
+	-fx-background-color: #00b0ff;
+	-fx-font-family: "Roboto regular";
+	-fx-font-size: 18.0;
+	-fx-text-fill: white;
+}
+
+.card-03-body {
+	-fx-background-color: #0091ea;
+	-fx-font-family: "Roboto regular";
+	-fx-font-size: 36.0;
+	-fx-text-fill: white;
+}

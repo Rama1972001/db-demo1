@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.PatientIssues">
+   <center>
+      <VBox prefHeight="327.0" prefWidth="276.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="add" mnemonicParsing="false" onAction="#AddPatientButton" prefHeight="80.0" prefWidth="230.0" text="Add a Patient ">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="47.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="https://icons.iconarchive.com/icons/custom-icon-design/flatastic-5/256/Female-user-add-icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="delete" mnemonicParsing="false" onAction="#DeletePatientButton" prefHeight="80.0" prefWidth="230.0" text="Delete a Patient ">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <VBox prefHeight="166.0" prefWidth="555.0" BorderPane.alignment="CENTER">
+         <children>
+            
+         </children>
+      </VBox>
+   </bottom>
+   <right>
+      <VBox prefHeight="259.0" prefWidth="310.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="edit" mnemonicParsing="false" onAction="#EditPatientButton" prefHeight="80.0" prefWidth="230.0" text="Edit a Patient ">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="search" mnemonicParsing="false" onAction="#SearchPatientButton" prefHeight="80.0" prefWidth="230.0" text="Search for a patient">
+               <font>
+                  <Font name="Baskerville Old Face" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZPRUD_W0CtnAYn8Ww_oP4eYAvh5V2HA7lho-4dfEBwM0UVNJUpDWtZwx5u8aAmFOpQM&amp;usqp=CAU" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+   </right>
+   <top>
+      <TextField alignment="CENTER" style="-fx-background-color: CORNFLOWERBLUE;" text="Patient Issues" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Baskerville Old Face" size="48.0" />
+         </font>
+      </TextField>
+   </top>
+</BorderPane>
